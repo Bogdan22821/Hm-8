@@ -1,72 +1,13 @@
-.schedule {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .schedule h3 {
-    margin: 0;
-    font-size: 1.5em;
+.schedule-body > tr:hover {
+    background-color: tomato;
+    color: white;
   }
 
-  .schedule ul {
-    list-style-type: none;
-    padding: 0;
+  .schedule {
+    border-collapse: collapse;
   }
-
-
-  .schedule ul li:hover {
-    background-color: lightgray; 
-  }
-
-  .schedule ul li:active {
-    background-color: darkgray; 
-  }
-
-  .schedule ul li:focus {
-    outline:  blue; 
-  }
-
-  .schedule ul li:nth-child(odd):hover {
-    color: red; 
-  }
-
-  .schedule ul li:nth-child(even):hover {
-    color: green; 
-  }
-
- 
-  .schedule ul:first-of-type {
-    background-color: lightcoral; 
-  }
-
-  .schedule ul:nth-of-type(2) {
-    background-color: lightblue; 
-  }
-
-  .schedule ul:nth-of-type(3) {
-    background-color: lightgreen; 
-  }
-
-  .schedule ul:nth-of-type(4) {
-    background-color: lightgoldenrodyellow; 
-  }
-
-  .schedule ul:nth-of-type(5) {
-    background-color: lightpink; 
-  }
-
-  .schedule ul:nth-of-type(6) {
-    background-color: lightseagreen; }
-
-  .schedule ul:last-of-type {
-    background-color: lightsteelblue; 
-  }
-
-  .schedule ul li:first-child {
-    font-weight: bold; 
-  }
-
-  .schedule ul li:last-child {
-    font-style: italic;
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
   }
