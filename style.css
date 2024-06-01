@@ -1,15 +1,72 @@
-.text-box h3:first-of-type{
-    color: pink;
-}
-.text-box p#greycol{
-    color: grey;
-}
-.text-box div:last-of-type p{
-    color: red;
-}
-.text-box p:nth-of-type(2){
-    color: green;
-}
-.text-box p.yellow{
-    color: yellow;
-} 
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .schedule h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  .schedule ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  .schedule ul li:hover {
+    background-color: lightgray; 
+  }
+
+  .schedule ul li:active {
+    background-color: darkgray; 
+  }
+
+  .schedule ul li:focus {
+    outline:  blue; 
+  }
+
+  .schedule ul li:nth-child(odd):hover {
+    color: red; 
+  }
+
+  .schedule ul li:nth-child(even):hover {
+    color: green; 
+  }
+
+ 
+  .schedule ul:first-of-type {
+    background-color: lightcoral; 
+  }
+
+  .schedule ul:nth-of-type(2) {
+    background-color: lightblue; 
+  }
+
+  .schedule ul:nth-of-type(3) {
+    background-color: lightgreen; 
+  }
+
+  .schedule ul:nth-of-type(4) {
+    background-color: lightgoldenrodyellow; 
+  }
+
+  .schedule ul:nth-of-type(5) {
+    background-color: lightpink; 
+  }
+
+  .schedule ul:nth-of-type(6) {
+    background-color: lightseagreen; }
+
+  .schedule ul:last-of-type {
+    background-color: lightsteelblue; 
+  }
+
+  .schedule ul li:first-child {
+    font-weight: bold; 
+  }
+
+  .schedule ul li:last-child {
+    font-style: italic;
+  }
